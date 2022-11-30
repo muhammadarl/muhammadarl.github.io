@@ -314,6 +314,42 @@ const animationTimeline = () => {
             },
             "+=2"
         )
+        .staggerFrom(".seventeen p", 1, ideaTextTrans, 1.2)
+        .to(
+            ".seventeen",
+            0.7, {
+                scale: 0.2,
+                opacity: 0,
+            },
+            "+=2"
+        )
+        .staggerFrom(".eightteen p", 1, ideaTextTrans, 1.2)
+        .to(
+            ".eightteen",
+            0.7, {
+                scale: 0.2,
+                opacity: 0,
+            },
+            "+=2"
+        )
+        .staggerFrom(".nineteen p", 1, ideaTextTrans, 1.2)
+        .to(
+            ".nineteen",
+            0.7, {
+                scale: 0.2,
+                opacity: 0,
+            },
+            "+=2"
+        )
+        .staggerFrom(".twenty p", 1, ideaTextTrans, 1.2)
+        .to(
+            ".twenty",
+            0.7, {
+                scale: 0.2,
+                opacity: 0,
+            },
+            "+=2"
+        )
         .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
         .to(
             ".last-smile",
